@@ -13,17 +13,20 @@
     <h1>Ввод и отображение текста</h1>
 
     <div class="flex-container">
-
-        <div class="left">
-            <h2>Ввод текста</h2>
-            <textarea id="textInput" rows="4" cols="50" placeholder="Введите текст"></textarea>
-            <br>
-            <button onclick="updateText()">Сохранить</button>
+        <div class="center">
+            <div>
+                <h2>Ввод текста</h2>
+                <div>
+                    <textarea class="div_left" id="textInput" rows="20" cols="50"
+                        placeholder="Введите текст"></textarea>
+                    <button class="div_right" onclick="updateText()">Сохранить</button>
+                </div>
+            </div>
         </div>
 
-        <div class="right">
+        <div class="center">
             <h2>Отображение текста</h2>
-            <textarea id="textDisplay" rows="4" cols="50" readonly></textarea>
+            <textarea id="textDisplay" rows="20" cols="50" readonly placeholder="Вывод текста"></textarea>
         </div>
     </div>
 </body>
