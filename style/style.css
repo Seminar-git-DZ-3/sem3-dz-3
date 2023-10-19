@@ -6,6 +6,7 @@
 html {
     width: 100%;
     height: 100%;
+    background-color: aquamarine;
 }
 
 .center {
@@ -17,6 +18,12 @@ html {
 
 h1 {
     text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+h2 {
+    align-items: center;
+    color: darkblue;
 }
 
 
@@ -26,10 +33,6 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
-/* .left {
-    flex: 1;
-} */
 
 .div_left {
     flex: 1;
@@ -43,10 +46,12 @@ h1 {
 }
 
 .right {
-    flex: 1;
+    flex: 2;
+    margin: 10px 10px 10px 10px
 }
 
 button {
     float: right;
     margin: 140px 0px 10px 100px;
+    background-color: blueviolet;
 }
