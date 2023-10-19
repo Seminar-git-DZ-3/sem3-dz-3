@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar3_DZ</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/main.js"></script>
+</head>
+
+<body>
+    <h1>Ввод и отображение текста</h1>
+
+    <div class="flex-container">
+
+        <div class="left">
+            <h2>Ввод текста</h2>
+            <textarea id="textInput" rows="4" cols="50" placeholder="Введите текст"></textarea>
+            <br>
+            <button onclick="updateText()">Сохранить</button>
+        </div>
+
+        <div class="right">
+            <h2>Отображение текста</h2>
+            <textarea id="textDisplay" rows="4" cols="50" readonly></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
