@@ -12,6 +12,5 @@ function updateText() {
     textDisplay.value += message + '\n';
 
     messageCount++;
-
     document.getElementById("textInput").value = "";
 }
