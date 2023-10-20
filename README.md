@@ -13,5 +13,5 @@
 ### composition of developers
 
     1. Farid Bagirov
-    2.
+    2. Smazhko Peter
     3.
