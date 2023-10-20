@@ -6,7 +6,7 @@
 html {
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: rgb(255, 178, 127);
 }
 
 .center {
@@ -53,7 +53,7 @@ h2 {
 button {
     float: right;
     margin: 140px 0px 10px 100px;
-    background-color: blueviolet;
+    background-color: rgb(107, 197, 245);
 }
 
 .container {
