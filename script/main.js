@@ -14,3 +14,22 @@ function updateText() {
     messageCount++;
     document.getElementById("textInput").value = "";
 }
+
+// Обработчик для загрузки изображения
+document.getElementById("imageInput").addEventListener("change", function () {
+    const fileInput = this;
+    const imageDisplay = document.getElementById("imageDisplay");
+
+    // Очищаем предыдущее содержимое контейнера
+    imageDisplay.innerHTML = '';
+
+    if (fileInput.files.length > 0) {
+        const file = fileInput.files[0];
+        const image = new Image();
+        image.src = URL.createObjectURL(file);
+
+        // Отображаем изображение в контейнере
+        imageDisplay.appendChild(image);
+    }
+});
+
