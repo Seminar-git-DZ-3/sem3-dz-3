@@ -33,3 +33,30 @@ document.getElementById("imageInput").addEventListener("change", function () {
     }
 });
 
+// const colors = ["#FFB27F", "#6BC5F5", "#FFA3A3", "#C3F6A2", "#FFDE79"];
+const colors = [
+    "#FFB27F",
+    "#6BC5F5",
+    "#FFA3A3",
+    "#C3F6A2",
+    "#FFDE79",
+    "#C0C1C9",
+    "#FFC3A0",
+    "#A2D7DD",
+    "#FFA3A0",
+    "#D8E2DC",
+    "#FFC3A0",
+    "#A2D7DD",
+    "#FFA3A0",
+    "#D8E2DC",
+    "#FFA3A0",
+    "#C0C1C9",
+];
+let currentColorIndex = 0;
+
+function changeBackgroundColor() {
+    document.body.style.backgroundColor = colors[currentColorIndex];
+    currentColorIndex = (currentColorIndex + 1) % colors.length;
+}
+
+setInterval(changeBackgroundColor, 5000);
