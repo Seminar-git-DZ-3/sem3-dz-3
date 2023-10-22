@@ -60,3 +60,15 @@ button {
     margin-top: 20px;
     text-align: center;
 }
+
+.div_left_hover:hover {
+    border: 2px solid darkgreen;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+.div_right_hover:hover {
+    border: 2px solid rgb(66, 157, 199);
+}
